@@ -44,8 +44,8 @@ map('letter', collection)
 
 ```js
 var map = require('arraymap')
-var objects = [ { letter: 'a'  }, { letter: 'b'  }, { letter: 'c'  }  ]
-var promise = Promise.resolve(objects)
+var collection = [ { letter: 'a' }, { letter: 'b' }, { letter: 'c' }  ]
+var promise = Promise.resolve(collection)
 
 promise.then(map('letter'))
 //=> ['a', 'b', 'c']
