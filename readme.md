@@ -66,9 +66,9 @@ promise.then(map('letter'))
 
 ## Alternatives
 
- - [Array.prototype.map()]
- - [array-map]
- - [curried-map]
+ - [Array.prototype.map()]: difficult to compose, not curried.
+ - [array-map]: not curried.
+ - [curried-map]: does not support dot-notation string accessor.
 
 ## Contributing
 
