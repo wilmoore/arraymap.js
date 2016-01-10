@@ -21,7 +21,7 @@ function ucs2decode (letter) {
   return decode(letter)[0]
 }
 
-var characters = ['a', 'b', 'c']
+var characters = [ 'a', 'b', 'c' ]
 var codepoints = [ 97, 98, 99 ]
 var collection = [ { char: 'a' }, { char: 'b' }, { char: 'c' } ]
 
